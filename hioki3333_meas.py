@@ -32,7 +32,7 @@ analyzer.write('CURRent:RANge?')
 #print(analyzer.query('CURRent:RANge?')
 analyzer.write('DISPLAY: U,I,P')
 analyzer.write('MEAS? U,I,P')
-#VIP=analyzer.query('MEAS? U,I,P')
+VIP=analyzer.query('MEAS? U,I,P')
 
 #analyzer.read('\n')
 #print(analyzer.query('*IDN?'))
